@@ -174,7 +174,7 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
+  width: 40%;
   height: 5px;
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   margin: 0 auto;
@@ -195,7 +195,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
-  width: 100px;
+  width: 100%;
   bottom: -12px;
 }
 
@@ -235,14 +235,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #004220;
+  box-shadow: 0 0 0 3px #9e4cfc;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #004220;
-  color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  background-color: #ff9e20;
+  color: #9e4cfc;
+  box-shadow: 0 0 0 3px #ff9e20;
   transition: all 500ms ease;
 }
 
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #004220;
+  color: #9e4cfc;
   margin-right: 10px;
 }
 
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: #ff9e20;
   color: #fff;
 }
 
@@ -832,6 +832,9 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 
+.about-me {
+  padding: 1rem;
+}
 .about-mf {
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   padding-top: 4rem;
@@ -988,17 +991,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #004220;
+  color: #9e4cfc;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #004220;
+  color: #9e4cfc;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #004220;
+  color: #9e4cfc;
 }
 
 .work-content .w-like .num-like {
@@ -1038,14 +1041,14 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #004220;
+  border: 1px solid #9e4cfc;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #004220;
+  background-color: #9e4cfc;
 }
 
 .portfolio-details .portfolio-info {
@@ -1159,6 +1162,44 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-container {
+  margin-bottom: 4rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  width: 65%;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+.list-ico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.more-info {
+  text-align: center;
+  width: 80%;
+}
+
 .overlay-contact {
   background-image: linear-gradient(60deg, #9e4cfc 0%, #ff9320 100%);
   position: absolute;
@@ -1168,7 +1209,10 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.9;
+  z-index: 1;
 }
+
+
 
 .footer-paralax {
   padding: 4rem 0 0 0;
@@ -1244,7 +1288,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"] {
-  background: #004220;
+  background: #9e4cfc;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1252,7 +1296,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #004220;
+  background: #9e4cfc;
 }
 
 @keyframes animate-loading {
