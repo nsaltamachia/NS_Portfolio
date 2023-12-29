@@ -107,7 +107,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #004220;
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
 }
 
 .overlay-mf {
@@ -176,7 +176,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #004220;
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   margin: 0 auto;
 }
 
@@ -194,7 +194,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #004220;
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   width: 100px;
   bottom: -12px;
 }
@@ -277,7 +277,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #004220;
+  box-shadow: 0 0 0 10px #9e4cfc;
   display: block;
 }
 
@@ -346,7 +346,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(6, 165, 83);
+  background: #9e4cfc;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -831,7 +831,14 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-mf .box-shadow-full {
+
+.about-mf {
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -871,23 +878,20 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
+  height: 85%;
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  color: white;
 }
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #004220;
-  box-shadow: 0 0 0 10px #06a553;
-}
-
-.service-box .service-ico {
-  margin-bottom: 1rem;
-  color: #1e1e1e;
+  background-color: #9e4cfc;
+  box-shadow: 0 0 0 10px #ff9e20;
 }
 
 .service-box .ico-circle {
@@ -895,6 +899,13 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
+  box-shadow: 0 0 0 10px #9e4cfc;
+}
+
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
 }
 
 .service-box .ico-circle i {
@@ -947,7 +958,6 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
-  
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -1002,6 +1012,11 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+.work {
+  background-image: linear-gradient(60deg, #9e4cfc 0%, #ff9320 100%);
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1144,6 +1159,17 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.overlay-contact {
+  background-image: linear-gradient(60deg, #9e4cfc 0%, #ff9320 100%);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
