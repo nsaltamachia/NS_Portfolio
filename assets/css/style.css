@@ -479,7 +479,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: #542985;
   padding: 12px 0;
 }
 
@@ -1125,7 +1125,7 @@ a:hover {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonial-box {
-  color: #fff;
+  color: #343333;
   text-align: center;
 }
 
@@ -1138,7 +1138,7 @@ a:hover {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #343333;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
@@ -1149,7 +1149,7 @@ a:hover {
 .testimonial-box .comit {
   font-size: 2rem;
   color: #004220;
-  background-color: #fff;
+  background-color: #343333;
   width: 52px;
   height: 52px;
   display: block;
@@ -1184,12 +1184,12 @@ a:hover {
 .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(158, 76, 252, .4);
   opacity: 1;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+  background-color: rgba(255, 158, 32, 1);
 }
 
 /*--------------------------------------------------------------
@@ -1202,7 +1202,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin-top: -4rem;
+  /* margin-top: -4rem; */
 }
 
 .contact-container {
