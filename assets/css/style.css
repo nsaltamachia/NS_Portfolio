@@ -186,16 +186,18 @@ a:hover {
 }
 
 .title-left {
+  text-align: center;
   font-size: 2rem;
   position: relative;
 }
 
 .title-left:before {
+  align-self: center;
   content: "";
   position: absolute;
   height: 3px;
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
-  width: 100%;
+  width: 80%;
   bottom: -12px;
 }
 
@@ -654,7 +656,7 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   transition: 0.3s;
   z-index: 999;
 }
@@ -673,7 +675,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: whitesmoke;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -692,13 +694,13 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #9e4cfc;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #004220;
+  color: #ff9e20;
 }
 
 .navbar-mobile .getstarted,
@@ -836,6 +838,7 @@ a:hover {
   padding: 1rem;
 }
 .about-mf {
+  
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1018,7 +1021,7 @@ a:hover {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #004220;
   font-size: 1rem;
 }
 
@@ -1048,10 +1051,6 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-
-.work {
-  background-image: linear-gradient(60deg, #9e4cfc 0%, #ff9320 100%);
-}
 
 .portfolio-details {
   padding-top: 40px;
