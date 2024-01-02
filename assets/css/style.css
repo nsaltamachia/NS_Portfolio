@@ -191,15 +191,15 @@ a:hover {
   position: relative;
 }
 
-.title-left:before {
+/* .title-left:before {
   align-self: center;
   content: "";
   position: absolute;
   height: 3px;
   background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
-  width: 80%;
+  width: 100%;
   bottom: -12px;
-}
+} */
 
 /*------/ Box /------*/
 .box-pl2 {
@@ -834,6 +834,14 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 
+.about-line-mf {
+  
+  width: 60%;
+  height: 5px;
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
+  margin: -2rem auto 1rem;
+}
+
 .about-me {
   padding: 1rem;
 }
@@ -1204,6 +1212,13 @@ a:hover {
   /* margin-top: -4rem; */
 }
 
+.contact-line-mf {
+  
+  width: 60%;
+  height: 5px;
+  background-image: linear-gradient(145deg, #9e4cfc 0%, #ff9320 100%);
+  margin: -2rem auto 1rem;
+}
 .contact-container {
   margin-bottom: 4rem;
   position: relative;
