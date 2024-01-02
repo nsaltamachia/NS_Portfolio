@@ -294,6 +294,8 @@
       <!-- End About Section -->
 
       <!-- ======= Services Section ======= -->
+
+
       <section id="services" class="services-mf pt-5 route">
         <div class="container">
           <div class="row">
@@ -345,6 +347,25 @@
               <div class="service-box">
                 <div class="service-ico">
                   <span class="ico-circle"
+                    ><i class="bi bi-brightness-high"></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Graphic Design</h2>
+                  <p class="s-description text-center">
+                    As much as a picture or video can leave an impression, so
+                    can a logo, a font, or a color scheme. I love to create
+                    visual identities that are unique and memorable while
+                    guiding the viewer with design principles like proportion,
+                    emphasis and hierarchy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
                     ><i class="bi bi-bar-chart"></i
                   ></span>
                 </div>
@@ -376,25 +397,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-brightness-high"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Graphic Design</h2>
-                  <p class="s-description text-center">
-                    As much as a picture or video can leave an impression, so
-                    can a logo, a font, or a color scheme. I love to create
-                    visual identities that are unique and memorable while
-                    guiding the viewer with design principles like proportion,
-                    emphasis and hierarchy.
-                  </p>
-                </div>
-              </div>
-            </div>
+            
             <div class="col-md-4">
               <div class="service-box">
                 <div class="service-ico">
@@ -415,17 +418,19 @@
             </div>
           </div>
         </div>
+        </div>
       </section>
       <!-- End Services Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="work" class="portfolio-mf sect-pt4 route">
+      <section id="work" class="portfolio-mf sect-pt4 route" >
+        
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="title-box text-center">
-                <h3 class="title-a">Portfolio</h3>
-                <p class="subtitle-a">Here are some of my projects.</p>
+                <h3 id="portfolio-title" class="title-a">Portfolio</h3>
+                <p id="portfolio-subtitle" class="subtitle-a">Here are some of my projects.</p>
                 <div class="line-mf"></div>
               </div>
             </div>
@@ -454,7 +459,7 @@
                       <br>
                       <a href="http://onesaltydev.me/ConnectFourFast" id="go-to-app-link">Explore The App</a>
                       <div class="w-more">
-                        <span class="w-ctegory">Game/JavaScript</span> /
+                        <span class="w-ctegory">Game/JavaScript</span> <br>
                         <span class="w-date">Nov. 24, 2023</span>
                       </div>
                     </div>
@@ -479,13 +484,13 @@
                 </a>
                 <div class="work-content">
                   <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-12">
                       <h2 class="w-title">App Tracker App</h2>
                       <a href="https://github.com/nsaltamachia/App-Tracker-App/blob/main/README.md" id="readme-link">View README.md</a>
                       <br>
                       <a href="https://app-tracker-app-0765f145ec66.herokuapp.com" id="go-to-app-link">Explore The App</a>
                       <div class="w-more">
-                        <span class="w-ctegory">MERN SPA</span> /
+                        <span class="w-ctegory">MERN SPA</span> <br>
                         <span class="w-date">Dec. 21, 2023</span>
                       </div>
                     </div>
@@ -493,33 +498,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-3.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-3.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Mavrito Lana Dere</h2>
-                      <a href="" id="readme-link">View README.md</a>
-                      <br>
-                      <a href="" id="go-to-app-link">Explore The App</a>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div class="col-md-4">
               <div class="work-box">
                 <a
@@ -537,13 +516,13 @@
                 </a>
                 <div class="work-content">
                   <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-12">
                       <h2 class="w-title">Dangers & Dice Rolls</h2>
                       <a href="https://github.com/nsaltamachia/Dangers-and-Dice-Rolls/blob/main/README.md" id="readme-link">View README.md</a>
                       <br>
                       <a href="http://onesaltydev.me/Dangers-and-Dice-Rolls" id="go-to-app-link">Explore The App</a>
                       <div class="w-more">
-                        <span class="w-ctegory">Game/JavaScript</span> /
+                        <span class="w-ctegory">Game/JavaScript</span> <br> 
                         <span class="w-date">Oct. 11, 2023</span>
                       </div>
                     </div>
@@ -551,60 +530,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-5.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-5.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h2 class="w-title">Studio Lena Mado</h2>
-                      <a href="" id="readme-link">View README.md</a>
-                      <br>
-                      <a href="" id="go-to-app-link">Explore The App</a>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-6.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-6.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Big Bang</h2>
-                      <a href="" id="readme-link">View README.md</a>
-                      <br>
-                      <a href="" id="go-to-app-link">Explore The App</a>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -683,8 +609,9 @@
       <section
         id="contact"
         class="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style="background-image: url(assets/img/camera_wall.jpg)"
+        style="background-image: url(assets/img/camera_wall.jpg);"
       >
+      <div id="contact-overlay-mf" class="overlay-mf"></div>
         <div class="contact-container">
           <div class="title-box-2 pt-4 pt-md-0">
             <h5 class="title-left">Thanks for your time!</h5>

@@ -880,6 +880,8 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+
 .service-box {
   height: 85%;
   background-color: #fff;
@@ -960,6 +962,22 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+/* #portfolio-title {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#portfolio-subtitle{
+  text-decoration: none;
+  color: white;
+} */
+/* #work {
+  background-image: linear-gradient(260deg, #9e4cfc 0%, #ff9320 100%);
+} */
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
@@ -1184,6 +1202,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin-top: -4rem;
 }
 
 .contact-container {
@@ -1216,7 +1235,7 @@ a:hover {
 }
 
 .overlay-contact {
-  background-image: linear-gradient(60deg, #9e4cfc 0%, #ff9320 100%);
+  /* background-image: linear-gradient(90deg, #9e4cfc 0%, #ff9320 100%); */
   position: absolute;
   top: 0;
   left: 0px;
@@ -1227,7 +1246,9 @@ a:hover {
   z-index: 1;
 }
 
-
+#contact-overlay-mf{
+  background-image: linear-gradient(80deg, #9e4cfc 0%, #ff9320 100%);
+}
 
 .footer-paralax {
   padding: 4rem 0 0 0;
