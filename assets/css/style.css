@@ -1153,6 +1153,14 @@ a:hover {
   font-size: 1.4rem;
 }
 
+#david-letter-link {
+  background-color: #004220;
+  border: solid 2px #06a553;
+  padding: .5rem 1rem;
+  color: white;
+  border-radius: 1rem;
+}
+
 .testimonial-box .comit {
   font-size: 2rem;
   color: #004220;
