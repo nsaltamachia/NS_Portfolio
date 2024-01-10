@@ -1153,7 +1153,7 @@ a:hover {
   font-size: 1.4rem;
 }
 
-#david-letter-link {
+#letter-link {
   background-color: #004220;
   border: solid 2px #06a553;
   padding: 0.5rem 1rem;
@@ -1161,7 +1161,7 @@ a:hover {
   border-radius: 1rem;
 }
 
-#david-letter-link:hover {
+#letter-link:hover {
   background-color: #06a553;
   border: solid 2px #004220;
   padding: 0.5rem 1rem;
@@ -1215,7 +1215,6 @@ a:hover {
   background-color: rgba(255, 158, 32, 1);
 }
 
-
 /*--------------------------------------------------------------
 # skills overlap
 --------------------------------------------------------------*/
@@ -1223,8 +1222,6 @@ a:hover {
   margin-top: 2rem;
   font-size: 2rem;
 }
-
-
 
 /*--------------------------------------------------------------
 # Contact
